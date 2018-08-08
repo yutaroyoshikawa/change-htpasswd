@@ -1,0 +1,5 @@
+slack:
+  build: .
+  command: npm i fs @slack/client promise
+  volumes:
+    - ./app:/home/app/slack
